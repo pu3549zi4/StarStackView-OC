@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7982C01D533D5D00A7353C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982BF1D533D5D00A7353C /* main.m */; };
+		2F7982C31D533D5D00A7353C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982C21D533D5D00A7353C /* AppDelegate.m */; };
+		2F7982C61D533D5D00A7353C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982C51D533D5D00A7353C /* ViewController.m */; };
+		2F7982C91D533D5D00A7353C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7982C71D533D5D00A7353C /* Main.storyboard */; };
+		2F7982CB1D533D5D00A7353C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7982CA1D533D5D00A7353C /* Assets.xcassets */; };
+		2F7982CE1D533D5D00A7353C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7982CC1D533D5D00A7353C /* LaunchScreen.storyboard */; };
+		2F7982D91D533D5D00A7353C /* StarStackView_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982D81D533D5D00A7353C /* StarStackView_OCTests.m */; };
+		2F7982E41D533D5D00A7353C /* StarStackView_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982E31D533D5D00A7353C /* StarStackView_OCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F7982D51D533D5D00A7353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7982B31D533D5C00A7353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7982BA1D533D5C00A7353C;
+			remoteInfo = "StarStackView-OC";
+		};
+		2F7982E01D533D5D00A7353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7982B31D533D5C00A7353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7982BA1D533D5C00A7353C;
+			remoteInfo = "StarStackView-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7982BB1D533D5C00A7353C /* StarStackView-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarStackView-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7982BF1D533D5D00A7353C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F7982C11D533D5D00A7353C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F7982C21D533D5D00A7353C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F7982C41D533D5D00A7353C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F7982C51D533D5D00A7353C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F7982C81D533D5D00A7353C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F7982CA1D533D5D00A7353C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7982CD1D533D5D00A7353C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7982CF1D533D5D00A7353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7982D41D533D5D00A7353C /* StarStackView-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarStackView-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7982D81D533D5D00A7353C /* StarStackView_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarStackView_OCTests.m; sourceTree = "<group>"; };
+		2F7982DA1D533D5D00A7353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7982DF1D533D5D00A7353C /* StarStackView-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarStackView-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7982E31D533D5D00A7353C /* StarStackView_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarStackView_OCUITests.m; sourceTree = "<group>"; };
+		2F7982E51D533D5D00A7353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7982B81D533D5C00A7353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982D11D533D5D00A7353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982DC1D533D5D00A7353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7982B21D533D5C00A7353C = {
+			isa = PBXGroup;
+			children = (
+				2F7982BD1D533D5C00A7353C /* StarStackView-OC */,
+				2F7982D71D533D5D00A7353C /* StarStackView-OCTests */,
+				2F7982E21D533D5D00A7353C /* StarStackView-OCUITests */,
+				2F7982BC1D533D5C00A7353C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7982BC1D533D5C00A7353C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7982BB1D533D5C00A7353C /* StarStackView-OC.app */,
+				2F7982D41D533D5D00A7353C /* StarStackView-OCTests.xctest */,
+				2F7982DF1D533D5D00A7353C /* StarStackView-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7982BD1D533D5C00A7353C /* StarStackView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				2F7982C11D533D5D00A7353C /* AppDelegate.h */,
+				2F7982C21D533D5D00A7353C /* AppDelegate.m */,
+				2F7982C41D533D5D00A7353C /* ViewController.h */,
+				2F7982C51D533D5D00A7353C /* ViewController.m */,
+				2F7982C71D533D5D00A7353C /* Main.storyboard */,
+				2F7982CA1D533D5D00A7353C /* Assets.xcassets */,
+				2F7982CC1D533D5D00A7353C /* LaunchScreen.storyboard */,
+				2F7982CF1D533D5D00A7353C /* Info.plist */,
+				2F7982BE1D533D5D00A7353C /* Supporting Files */,
+			);
+			path = "StarStackView-OC";
+			sourceTree = "<group>";
+		};
+		2F7982BE1D533D5D00A7353C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F7982BF1D533D5D00A7353C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F7982D71D533D5D00A7353C /* StarStackView-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7982D81D533D5D00A7353C /* StarStackView_OCTests.m */,
+				2F7982DA1D533D5D00A7353C /* Info.plist */,
+			);
+			path = "StarStackView-OCTests";
+			sourceTree = "<group>";
+		};
+		2F7982E21D533D5D00A7353C /* StarStackView-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7982E31D533D5D00A7353C /* StarStackView_OCUITests.m */,
+				2F7982E51D533D5D00A7353C /* Info.plist */,
+			);
+			path = "StarStackView-OCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7982BA1D533D5C00A7353C /* StarStackView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7982E81D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OC" */;
+			buildPhases = (
+				2F7982B71D533D5C00A7353C /* Sources */,
+				2F7982B81D533D5C00A7353C /* Frameworks */,
+				2F7982B91D533D5C00A7353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarStackView-OC";
+			productName = "StarStackView-OC";
+			productReference = 2F7982BB1D533D5C00A7353C /* StarStackView-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F7982D31D533D5D00A7353C /* StarStackView-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7982EB1D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OCTests" */;
+			buildPhases = (
+				2F7982D01D533D5D00A7353C /* Sources */,
+				2F7982D11D533D5D00A7353C /* Frameworks */,
+				2F7982D21D533D5D00A7353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7982D61D533D5D00A7353C /* PBXTargetDependency */,
+			);
+			name = "StarStackView-OCTests";
+			productName = "StarStackView-OCTests";
+			productReference = 2F7982D41D533D5D00A7353C /* StarStackView-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F7982DE1D533D5D00A7353C /* StarStackView-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7982EE1D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OCUITests" */;
+			buildPhases = (
+				2F7982DB1D533D5D00A7353C /* Sources */,
+				2F7982DC1D533D5D00A7353C /* Frameworks */,
+				2F7982DD1D533D5D00A7353C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7982E11D533D5D00A7353C /* PBXTargetDependency */,
+			);
+			name = "StarStackView-OCUITests";
+			productName = "StarStackView-OCUITests";
+			productReference = 2F7982DF1D533D5D00A7353C /* StarStackView-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7982B31D533D5C00A7353C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Paul.Chen;
+				TargetAttributes = {
+					2F7982BA1D533D5C00A7353C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2F7982D31D533D5D00A7353C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F7982BA1D533D5C00A7353C;
+					};
+					2F7982DE1D533D5D00A7353C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F7982BA1D533D5C00A7353C;
+					};
+				};
+			};
+			buildConfigurationList = 2F7982B61D533D5C00A7353C /* Build configuration list for PBXProject "StarStackView-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7982B21D533D5C00A7353C;
+			productRefGroup = 2F7982BC1D533D5C00A7353C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7982BA1D533D5C00A7353C /* StarStackView-OC */,
+				2F7982D31D533D5D00A7353C /* StarStackView-OCTests */,
+				2F7982DE1D533D5D00A7353C /* StarStackView-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7982B91D533D5C00A7353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7982CE1D533D5D00A7353C /* LaunchScreen.storyboard in Resources */,
+				2F7982CB1D533D5D00A7353C /* Assets.xcassets in Resources */,
+				2F7982C91D533D5D00A7353C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982D21D533D5D00A7353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982DD1D533D5D00A7353C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7982B71D533D5C00A7353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7982C61D533D5D00A7353C /* ViewController.m in Sources */,
+				2F7982C31D533D5D00A7353C /* AppDelegate.m in Sources */,
+				2F7982C01D533D5D00A7353C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982D01D533D5D00A7353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7982D91D533D5D00A7353C /* StarStackView_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7982DB1D533D5D00A7353C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7982E41D533D5D00A7353C /* StarStackView_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F7982D61D533D5D00A7353C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7982BA1D533D5C00A7353C /* StarStackView-OC */;
+			targetProxy = 2F7982D51D533D5D00A7353C /* PBXContainerItemProxy */;
+		};
+		2F7982E11D533D5D00A7353C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7982BA1D533D5C00A7353C /* StarStackView-OC */;
+			targetProxy = 2F7982E01D533D5D00A7353C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F7982C71D533D5D00A7353C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7982C81D533D5D00A7353C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F7982CC1D533D5D00A7353C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7982CD1D533D5D00A7353C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7982E61D533D5D00A7353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F7982E71D533D5D00A7353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7982E91D533D5D00A7353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "StarStackView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F7982EA1D533D5D00A7353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "StarStackView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F7982EC1D533D5D00A7353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "StarStackView-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarStackView-OC.app/StarStackView-OC";
+			};
+			name = Debug;
+		};
+		2F7982ED1D533D5D00A7353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "StarStackView-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarStackView-OC.app/StarStackView-OC";
+			};
+			name = Release;
+		};
+		2F7982EF1D533D5D00A7353C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StarStackView-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "StarStackView-OC";
+			};
+			name = Debug;
+		};
+		2F7982F01D533D5D00A7353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StarStackView-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Chen.StarStackView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "StarStackView-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7982B61D533D5C00A7353C /* Build configuration list for PBXProject "StarStackView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7982E61D533D5D00A7353C /* Debug */,
+				2F7982E71D533D5D00A7353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7982E81D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7982E91D533D5D00A7353C /* Debug */,
+				2F7982EA1D533D5D00A7353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F7982EB1D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7982EC1D533D5D00A7353C /* Debug */,
+				2F7982ED1D533D5D00A7353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F7982EE1D533D5D00A7353C /* Build configuration list for PBXNativeTarget "StarStackView-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7982EF1D533D5D00A7353C /* Debug */,
+				2F7982F01D533D5D00A7353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7982B31D533D5C00A7353C /* Project object */;
+}
