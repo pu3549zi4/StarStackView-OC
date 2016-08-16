@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *addStarBtn;
+@property (weak, nonatomic) IBOutlet UIButton *removeStar;
+@property (weak, nonatomic) IBOutlet UIStackView *verticalSV;
+@property (weak, nonatomic) IBOutlet UIStackView *horSV;
 
 @end
 

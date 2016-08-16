@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,73 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="V7T-zj-ima">
+                                <rect key="frame" x="0.0" y="490" width="600" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="93m-dl-f4L"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="InC-0L-e4p">
+                                <rect key="frame" x="0.0" y="20" width="600" height="469"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like our app?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrJ-sU-7QY">
+                                        <rect key="frame" x="204" y="0.0" width="192" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GLa-Av-2EK">
+                                        <rect key="frame" x="146" y="70" width="308" height="321"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kAL-C6-sK0">
+                                        <rect key="frame" x="220" y="439" width="161" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2u-J6-nJs">
+                                                <rect key="frame" x="0.0" y="0.0" width="64" height="30"/>
+                                                <state key="normal" title="Add Star!"/>
+                                                <connections>
+                                                    <action selector="addStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YV1-WZ-WCf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dtw-iP-Lhn">
+                                                <rect key="frame" x="74" y="0.0" width="87" height="30"/>
+                                                <state key="normal" title="Remove Star">
+                                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="removeStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYy-Qn-YRt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="V7T-zj-ima" secondAttribute="trailing" id="67V-Fx-VIv"/>
+                            <constraint firstItem="InC-0L-e4p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ICK-2h-8vF"/>
+                            <constraint firstItem="V7T-zj-ima" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QQO-1f-dLr"/>
+                            <constraint firstAttribute="trailing" secondItem="InC-0L-e4p" secondAttribute="trailing" id="RVk-Xd-mR9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V7T-zj-ima" secondAttribute="bottom" id="fSp-IO-DEl"/>
+                            <constraint firstItem="InC-0L-e4p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qbe-dE-UzW"/>
+                            <constraint firstItem="V7T-zj-ima" firstAttribute="top" secondItem="InC-0L-e4p" secondAttribute="bottom" constant="1" id="v7v-qV-lIO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addStarBtn" destination="p2u-J6-nJs" id="8Zp-rC-cmH"/>
+                        <outlet property="horSV" destination="V7T-zj-ima" id="v7P-QP-Qd4"/>
+                        <outlet property="removeStar" destination="Dtw-iP-Lhn" id="gs5-wU-pua"/>
+                        <outlet property="verticalSV" destination="InC-0L-e4p" id="YSK-Ef-emI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="346" y="420"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="308" height="321"/>
+    </resources>
 </document>
